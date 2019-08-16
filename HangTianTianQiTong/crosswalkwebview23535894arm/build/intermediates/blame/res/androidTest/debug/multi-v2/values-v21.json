@@ -1,0 +1,52 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\HangTianTianQiTong\\crosswalkwebview23535894arm\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "D:\\HangTianTianQiTong\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,6,9,12",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,262,421,554",
+                        "endLines": "5,8,11,14",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "257,416,549,690"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,6,9,12",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,262,421,554",
+                        "endLines": "5,8,11,14",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "257,416,549,690"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v21\\values-v21.xml",
+            "map": [
+                {
+                    "source": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,6,9,12",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,262,421,554",
+                        "endLines": "5,8,11,14",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "257,416,549,690"
+                    }
+                }
+            ]
+        }
+    ]
+}

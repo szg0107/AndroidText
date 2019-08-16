@@ -1,0 +1,298 @@
+[
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v17_autofill_keyboard_accessory_item.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout-v17\\autofill_keyboard_accessory_item.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\menu_select_action_menu.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\menu\\select_action_menu.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_verify_checkmark.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\verify_checkmark.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_verify_checkmark.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\verify_checkmark.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v17_multi_field_time_picker_dialog.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout-v17\\multi_field_time_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_ic_menu_share_holo_light.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_ic_search.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\ic_search.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_autofill_keyboard_accessory_icon.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout\\autofill_keyboard_accessory_icon.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_ic_warning.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_warning.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_dropdown_popup_background_up.9.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\dropdown_popup_background_up.9.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v17_two_field_date_picker.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout-v17\\two_field_date_picker.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_bubble.9.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\bubble.9.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_autofill_chip_inset.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\autofill_chip_inset.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_bubble_arrow_up.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\bubble_arrow_up.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_color_picker_dialog_title.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout\\color_picker_dialog_title.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_xwalk_100_percent.pak.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\xwalk_100_percent.pak"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_color_button_background.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\color_button_background.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_xwalk.pak.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\xwalk.pak"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dropdown_popup_background_up.9.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dropdown_popup_background_up.9.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_date_time_picker_dialog.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout\\date_time_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_ic_warning.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\ic_warning.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_dropdown_popup_background_down.9.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\dropdown_popup_background_down.9.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v17_validation_message_bubble.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout-v17\\validation_message_bubble.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_dropdown_popup_background_up.9.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\dropdown_popup_background_up.9.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_menu_share_holo_light.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_ic_search.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_search.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_dropdown_label_color.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\dropdown_label_color.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_color_picker_advanced_select_handle.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\color_picker_advanced_select_handle.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v17_dropdown_item.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout-v17\\dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ic_menu_share_holo_light.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_button_compat.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-v21\\button_compat.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_bubble_arrow_up.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\bubble_arrow_up.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_wifidirect_api.js.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\wifidirect_api.js"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_color_picker_advanced_component.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout\\color_picker_advanced_component.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_bubble.9.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\bubble.9.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_verify_checkmark.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\verify_checkmark.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_dropdown_popup_background.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\dropdown_popup_background.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ic_search.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_search.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v17_color_picker_dialog_title.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout-v17\\color_picker_dialog_title.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v17_color_picker_advanced_component.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout-v17\\color_picker_advanced_component.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_verify_checkmark.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\verify_checkmark.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_date_time_suggestion.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout\\date_time_suggestion.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_dropdown_popup_background_down.9.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\dropdown_popup_background_down.9.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_ic_warning.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_warning.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v17_date_time_suggestion.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout-v17\\date_time_suggestion.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_launch_screen_api.js.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\launch_screen_api.js"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_dropdown_popup_background_down.9.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\dropdown_popup_background_down.9.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_color_picker_advanced_select_handle.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\color_picker_advanced_select_handle.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ondemand_overlay.9.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ondemand_overlay.9.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxhdpi-v4_ic_search.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xxhdpi-v4\\ic_search.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ondemand_overlay.9.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ondemand_overlay.9.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_ic_menu_share_holo_light.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_autofill_keyboard_accessory_item.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout\\autofill_keyboard_accessory_item.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_multi_field_time_picker_dialog.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout\\multi_field_time_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_empty.wav.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\empty.wav"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_warning.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_warning.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_ic_search.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ic_search.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xxxhdpi-v4_ic_menu_share_holo_light.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xxxhdpi-v4\\ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-v21_button_borderless_compat.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-v21\\button_borderless_compat.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_button_compat_shape.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\button_compat_shape.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-land_date_time_picker_dialog.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout-land\\date_time_picker_dialog.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_two_field_date_picker.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout\\two_field_date_picker.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ic_warning.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ic_warning.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4_color_picker_advanced_select_handle.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\color_picker_advanced_select_handle.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_dropdown_item.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout\\dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_ondemand_overlay.9.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\ondemand_overlay.9.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_verify_checkmark.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\verify_checkmark.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable_color_picker_border.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable\\color_picker_border.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_bubble_arrow_up.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bubble_arrow_up.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_bubble.9.png.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\bubble.9.png"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw_icudtl.dat.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\icudtl.dat"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout-v17_color_picker_dialog_content.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout-v17\\color_picker_dialog_content.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_color_picker_dialog_content.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout\\color_picker_dialog_content.xml"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_validation_message_bubble.xml.flat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\layout\\validation_message_bubble.xml"
+    }
+]

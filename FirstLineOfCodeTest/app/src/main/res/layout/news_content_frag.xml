@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--新闻内容布局-->
+<!--主要分为两部分，头部部分显示新闻标题，正文部分显示新闻内容，中间用一条细线分隔开。-->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="invisible"
+        android:id="@+id/visibility_layout">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/news_title"
+            android:gravity="center"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/news_content"
+            android:layout_weight="1"
+            android:padding="15dp"
+            android:textSize="18sp"/>
+    </LinearLayout>
+    <!--细线是利用view来实现的，将view的宽或高设置为1dp,再通过background属性给细线设置一下颜色-->
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#000"/>
+</RelativeLayout>

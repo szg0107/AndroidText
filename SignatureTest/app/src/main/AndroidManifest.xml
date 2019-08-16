@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.signaturetest">
+
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!--获取当前地理位置要的权限-->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- 仅网络定位的权限 -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 自定义Dialog -->
+        <activity android:name=".Custom_AlertDialog.CustomAlertDialogActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.CustomAlertDialogActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 分享文本 -->
+        <activity android:name=".fen_xiang.ShareActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ShareActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 下载音频并分享 -->
+        <activity android:name=".fen_xiang.ShareMp4Activity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ShareMp4Activity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 监听网络状态 -->
+        <activity android:name=".jian_ting_wang_luo_zhuang_tai_fu_wu.ReceiveTestActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ReceiveTestActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 自定义音乐播放器 -->
+        <activity android:name=".MusicPlayer.MusicPlayerActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.MusicPlayerActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--自定义五子棋控件-->
+        <activity android:name=".WuZiQi.WuZiQiActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.WuZiQiActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 自定义图片缩放 -->
+        <activity android:name=".MyImage.MyImageActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.MyImageActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 自定义图片缩放2(无限放大缩小版) -->
+        <activity android:name=".MyImage.ScaleImageViewActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ScaleImageViewActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- Fresco和PhotoDraweeView实现加载大图与图片缩放 -->
+        <activity android:name=".MyImage.PhotoDraweeViewTextActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.PhotoDraweeViewTextActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 加载网络图片 -->
+        <activity android:name=".MyImage.LoadNetworkImage">
+            <intent-filter>
+                <action android:name="android.intent.Activity.LoadNetworkImage" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 上拉加载更多下拉刷新控件 -->
+        <activity android:name=".PullToRefreshAndLoad.PullToRefreshAndLoadActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.PullToRefreshAndLoadActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 悬浮窗 -->
+        <activity android:name=".PopupWindow.PopupWindowActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.PopupWindowActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 检测底部虚拟键是否存在 -->
+        <activity android:name=".Does_the_virtual_key_exist.There_is_a_virtual_button">
+            <intent-filter>
+                <action android:name="android.intent.Activity.There_is_a_virtual_button" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- PDF在线阅读 -->
+        <activity android:name=".Download_the_PDF_and_displays.Download_the_PDF_and_display">
+            <intent-filter>
+                <action android:name="android.intent.Activity.Download_the_PDF_and_display" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 下载到本地阅读PDF方式一 -->
+        <activity android:name=".Download_the_PDF_and_displays.Download_the_PDF_and_display2">
+            <intent-filter>
+                <action android:name="android.intent.Activity.Download_the_PDF_and_display2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 下载到本地阅读PDF方式二 -->
+        <activity android:name=".Download_the_PDF_and_displays.Download_the_PDF_and_display3">
+            <intent-filter>
+                <action android:name="android.intent.Activity.Download_the_PDF_and_display3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 下载到本地阅读PDF方式三 -->
+        <activity android:name=".Download_the_PDF_and_displays.Download_the_PDF_and_display4">
+            <intent-filter>
+                <action android:name="android.intent.Activity.Download_the_PDF_and_display4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 分组列表 -->
+        <activity android:name=".GroupList.GroupListActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.GroupListActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 自动更新+启动动画 -->
+        <activity android:name=".Display_pictures_drag.Display_pictures_drag">
+            <intent-filter>
+                <action android:name="android.intent.Activity.Display_pictures_drag" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 系统定位练习 -->
+        <activity android:name=".NativePositioning.NativePositioningActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.NativePositioningActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 高德web服务+定位+反向地理编码 -->
+        <activity android:name=".NativePositioning.ShowLocation">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ShowLocation" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

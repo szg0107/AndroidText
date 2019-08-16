@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SignatureTest</string>
+    <string name="title_activity_scale_image_view">ScaleImageViewActivity</string>
+</resources>

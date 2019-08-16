@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.administrator.signaturetest.MainActivity">
+
+        <Button
+            android:id="@+id/custom_alert_dialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义dialog"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/share"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="分享文本"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/shareAudio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="分享音频"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/musicPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义音乐播放器"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/wuZiQi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义五子棋view"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/myImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义图片控件"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/scaleImageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义图片控件2(无限放大版)"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/photoDrawView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fresco和PhotoDraweeView实现加载大图与图片缩放"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/loadNetworkImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="加载网络图片"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/PullToRefreshAndLoad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="上拉加载更多下拉刷新控件"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/popupWindow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="悬浮窗"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/virtualButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="检测底部虚拟键是否存在"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/receiveTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="监听网络服务"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/showPDF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="在线阅读PDF"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/downloadPDF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下载到本地阅读pdf方式一"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/downloadPDF2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下载到本地阅读pdf方式二"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/downloadPDF3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="下载到本地阅读pdf方式三"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/groupList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="分组列表"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/displayPicturesDrag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自动更新+启动动画"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/nativePositioning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="系统定位练习"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/showLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="高德web服务+定位+反向地理编码"
+            android:textAllCaps="false" />
+    </LinearLayout>
+</ScrollView>

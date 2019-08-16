@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--起名为MyDialog 继承系统Dialog的风格-->
+    <style name="MyDialog" parent="android:Theme.Dialog">
+        <!--窗体没有title-->
+        <item name="android:windowNoTitle">true</item>
+        <!--添加窗体的颜色-->
+        <item name="android:windowBackground">@color/colorWhite</item>
+    </style>
+</resources>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.firstlineofcodetest">
+
+    <!-- 访问系统的网络状态权限 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- 监听系统开机广播权限 -->
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 自定义图片控件 -->
+        <activity android:name=".MyImage.MyImageActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.MyImageActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- activity生命周期练习 -->
+        <activity
+            android:name=".ActivityTest.ActivityLifecycle"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ActivityLifecycle" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- fragment练习 -->
+        <activity
+            android:name=".FragmentTest.FragmentTextActivity"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.Activity.FragmentTextActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- fragment实践   简易版的新闻应用 -->
+        <activity android:name=".FragmentBestPractice.NewsShowActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.NewsShowActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 新闻详情 -->
+        <activity android:name=".FragmentBestPractice.NewsContentActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.NewsContentActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 广播练习之监听网络状态 -->
+        <activity android:name=".BroadcastTest.BroadcastTestActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.BroadcastTestActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 静态注册广播开机启动 -->
+        <receiver
+            android:name=".BroadcastTest.BootCompleteReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <!-- 自定义广播 -->
+        <receiver
+            android:name=".BroadcastTest.MyBroadcastReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.example.broadcastTest.MY_BROADCAST" />
+            </intent-filter>
+        </receiver>
+        <!-- 广播的最近实践 登录页面 -->
+        <activity android:name=".BroadcastBestPractice.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 登录首页 调用强制下线功能 -->
+        <activity android:name=".BroadcastBestPractice.LoginIndexActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.LoginIndexActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 将数据存储到文件中与从文件中读取数据 -->
+        <activity android:name=".FilePersistenceTest.FileOutputTestActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.FileOutputTestActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- SharedPreferences储存练习 -->
+        <activity android:name=".FilePersistenceTest.SharedPreferencesTestActivity">
+            <intent-filter>
+                <action android:name="android.intent.Activity.SharedPreferencesTestActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- SQLite数据库储存练习 -->
+        <activity android:name=".DatabaseTest.MyDatabaseTest">
+            <intent-filter>
+                <action android:name="android.intent.Activity.MyDatabaseTest" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

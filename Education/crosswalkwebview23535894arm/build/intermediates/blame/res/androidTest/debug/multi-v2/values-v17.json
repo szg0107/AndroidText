@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v17\\values-v17.xml",
+            "map": [
+                {
+                    "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\values-v17\\values-v17.xml",
+                    "from": {
+                        "startLines": "2,6,19,22,25,28,31,34,37",
+                        "startColumns": "4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,254,898,1061,1201,1321,1508,1638,1757",
+                        "endLines": "5,18,21,24,27,30,33,36,40",
+                        "endColumns": "12,12,12,12,12,12,12,12,12",
+                        "endOffsets": "249,893,1056,1196,1316,1503,1633,1752,1996"
+                    }
+                }
+            ]
+        }
+    ]
+}

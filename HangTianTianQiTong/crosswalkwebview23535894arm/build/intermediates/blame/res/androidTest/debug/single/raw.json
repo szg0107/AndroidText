@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\empty.wav",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\empty.wav"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\wifidirect_api.js",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\wifidirect_api.js"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\xwalk_100_percent.pak",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\xwalk_100_percent.pak"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\xwalk.pak",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\xwalk.pak"
+    },
+    {
+        "merged": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\empty.wav",
+        "source": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\empty.wav"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\icudtl.dat",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\icudtl.dat"
+    },
+    {
+        "merged": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\xwalk.pak",
+        "source": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\xwalk.pak"
+    },
+    {
+        "merged": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\xwalk_100_percent.pak",
+        "source": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\xwalk_100_percent.pak"
+    },
+    {
+        "merged": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\launch_screen_api.js",
+        "source": "D:\\work\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\launch_screen_api.js"
+    },
+    {
+        "merged": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\wifidirect_api.js",
+        "source": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\wifidirect_api.js"
+    },
+    {
+        "merged": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\icudtl.dat",
+        "source": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\icudtl.dat"
+    },
+    {
+        "merged": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\res\\merged\\androidTest\\debug\\raw\\launch_screen_api.js",
+        "source": "D:\\Education\\crosswalkwebview23535894arm\\build\\intermediates\\bundles\\debug\\res\\raw\\launch_screen_api.js"
+    }
+]

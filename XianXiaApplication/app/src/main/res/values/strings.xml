@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">XianXiaApplication</string>
+    <string name="menu_science">menu_science</string>
+    <string name="menu_home">menu_home</string>
+    <string name="menu_news">menu_news</string>
+    <string name="menu_search">menu_search</string>
+    <string name="menu_reading">menu_reading</string>
+    <string name="star_white">star_white</string>
+    <string name="mtrl_alpha">mtrl_alpha</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

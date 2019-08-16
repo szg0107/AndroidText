@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.extop.beikongsanitation.Fragment.OperationRecordsFragment"
+    android:orientation="vertical">
+    <!--用户信息、车型-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+        <ImageView
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@mipmap/logo"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/portrait"
+            android:layout_centerVertical="true"/>
+        <!--标题 用户-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:layout_toEndOf="@id/portrait">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:id="@+id/driverName"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text=""
+                android:id="@+id/driverCode"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/personal_list"
+        android:background="#fff"
+        android:layout_marginTop="30dp"
+        android:dividerHeight="10dp"
+        android:divider="#efeef4"/>
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/questionDetails_icon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#029AE5"
+            android:paddingTop="15dp">
+
+            <TextView
+                android:id="@+id/questionDetails_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="问题详情"
+                android:textColor="#fff"
+                android:textSize="18dp"
+                android:textStyle="bold"/>
+        </android.support.v7.widget.Toolbar>
+
+        <org.xwalk.core.XWalkView
+            android:id="@+id/wv_QuestionDetails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#BFBFBF">
+
+            <EditText
+                android:id="@+id/answer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_weight="0.9"
+                android:background="@drawable/shape"
+                android:hint="请输入回复的内容"
+                android:minLines="2"
+                android:textColorHint="#AAAAAA" />
+
+            <Button
+                android:id="@+id/send"
+                android:layout_width="40dp"
+                android:layout_height="45dp"
+                android:layout_margin="5dp"
+                android:layout_weight="0.1"
+                android:background="@drawable/rounded_button"
+                android:text="发送"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.extop.HangTianTianQiTong.Adapter.ScaleImageView
+        android:id="@+id/question_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000000"
+        android:scaleType="fitCenter"
+        android:visibility="gone" />
+</RelativeLayout>

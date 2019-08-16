@@ -1,0 +1,95 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.extop.HangTianTianQiTong.Fragment.PersonalCenterFragment"
+    android:orientation="vertical"
+    android:background="#efeef4">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/personal_list"
+        android:background="#fff"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:minHeight="50dp"
+        android:gravity="center"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="无图模式"
+            android:textSize="20dp"
+            android:textColor="#666"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"/>
+        <com.extop.HangTianTianQiTong.Adapter.Switch
+            android:id="@+id/mySwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:minHeight="50dp"
+        android:gravity="center"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主控图形布局"
+            android:textSize="20dp"
+            android:textColor="#666"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"/>
+        <com.extop.HangTianTianQiTong.Adapter.Switch
+            android:id="@+id/circleListSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#ffffff"
+        android:minHeight="50dp"
+        android:gravity="center"
+        android:layout_marginTop="1dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="工作圈图形布局"
+            android:textSize="20dp"
+            android:textColor="#666"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"/>
+        <com.extop.HangTianTianQiTong.Adapter.Switch
+            android:id="@+id/circleDetailsSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="450px"
+        android:layout_height="50dp"
+        android:text="退出登录"
+        android:textSize="20dp"
+        android:id="@+id/user_name"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

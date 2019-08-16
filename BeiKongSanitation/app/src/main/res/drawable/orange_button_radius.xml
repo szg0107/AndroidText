@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--橘色按钮圆角-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FF6600" />
+    <corners android:radius="5dip"/>
+</shape>

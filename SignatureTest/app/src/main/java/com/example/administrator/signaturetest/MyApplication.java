@@ -1,0 +1,81 @@
+package com.example.administrator.signaturetest;
+
+import android.app.Activity;
+import android.app.Application;
+import com.facebook.drawee.backends.pipeline.Fresco;
+
+import org.xutils.x;
+
+import java.util.LinkedList;
+import java.util.List;
+
+
+
+/**
+ * Created by Administrator on 2017/3/8.
+ */
+
+public class MyApplication extends Application {
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        //初始化图片加载库
+        Fresco.initialize(this);
+        //注册xutils
+        x.Ext.init(this);
+    }
+
+
+    /**
+     * 添加到Activity容器中的参数、方法
+     */
+
+    public static List<Activity> activityList = new LinkedList<Activity>();
+
+    /**
+     * 添加到Activity容器中
+     */
+    public static void addActivity(Activity activity) {
+        if (!activityList.contains(activity)) {
+            activityList.add(activity);
+        }
+    }
+
+    /**
+     * 便利所有Activigty并finish
+     */
+    public static void finishActivity() {
+        for (Activity activity : activityList) {
+            activity.finish();
+        }
+        activityList.clear();
+    }
+
+    /**
+     * 结束指定的Activity
+     */
+    public static void finishSingleActivity(Activity activity) {
+        if (activity != null) {
+            if (activityList.contains(activity)) {
+                activityList.remove(activity);
+            }
+            activity.finish();
+            activity = null;
+        }
+    }
+
+    /**
+     * 结束指定类名的Activity 在遍历一个列表的时候不能执行删除操作，所有我们先记住要删除的对象，遍历之后才去删除。
+     */
+    public static void finishSingleActivityByClass(Class<?> cls) {
+        Activity tempActivity = null;
+        for (Activity activity : activityList) {
+            if (activity.getClass().equals(cls)) {
+                tempActivity = activity;
+            }
+        }
+
+        finishSingleActivity(tempActivity);
+    }
+}

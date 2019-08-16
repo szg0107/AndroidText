@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#BFBFBF">
+    <TextView
+        android:id="@+id/pop_SceneSession"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/radius"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="20dp"
+        android:textColor="#666"
+        android:text="分享到微信"/>
+    <TextView
+        android:id="@+id/pop_SceneTimeline"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/radius"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="20dp"
+        android:textColor="#666"
+        android:text="分享到朋友圈"/>
+    <TextView
+        android:id="@+id/pop_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/radius"
+        android:textSize="20dp"
+        android:textColor="#666"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="取消"/>
+</LinearLayout>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--目录页面-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/myImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="自定义图片控件" />
+        <!--textAllCaps禁用将英文字母转换成大写-->
+
+        <Button
+            android:id="@+id/activityLifecycle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="activity生命周期练习"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/fragmentText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fragment练习"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/newsShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="fragment实践   简易版的新闻应用 "
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/broadcastTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="广播练习之监听网络状态"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/forceOffline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="广播实践  实现强制下线功能"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/fileOutputTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="将数据存储到文件中与从文件中读取数据"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/SharedPreferencesTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SharedPreferences储存练习"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/MyDatabaseTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SQLite数据库储存练习"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/myImage10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="其他"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/myImage11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="其他"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/myImage12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="其他"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/myImage13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="其他"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/myImage14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="其他"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/myImage15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="其他"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/myImage16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="其他"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/myImage17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="其他"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</ScrollView>

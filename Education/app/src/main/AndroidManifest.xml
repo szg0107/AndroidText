@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.extop.education"
+    android:versionCode="11"
+    android:versionName="2.1">
+
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- SD卡写入权限 -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <!-- 允许程序访问有关GSM网络信息 -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <!-- Crosswalk_Crosswalk需要的权限 -->
+    <!-- 允许一个程序访问精良位置(如GPS) -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <!-- 请求访问使用照相设备 -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- 允许程序修改全局音频设置 -->
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <!-- 允许程序录制音频 -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <!-- 允许使用PowerManager的 WakeLocks保持进程在休眠时从屏幕消失 -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <!-- 支付宝需要的权限 -->
+    <!-- 允许程序访问Wi-Fi网络状态信息 -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 读取手机状态数据 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- 完整的支付宝需要的权限 -->
+    <!-- <uses-permission android:name="android.permission.INTERNET" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
+    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.extop.education.pro.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <!-- 正式融云AppKey x4vkb1qpx7cck -->
+        <!-- 测试融云AppKey x18ywvqfx6uuc -->
+        <meta-data
+            android:name="RONG_CLOUD_APP_KEY"
+            android:value="x4vkb1qpx7cck" />
+        <!-- 启动动画 -->
+        <activity
+            android:name=".Activity.Start_Animation"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- welcome -->
+        <activity
+            android:name=".Activity.WelComeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.WeLcomeActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 登录 -->
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.LoginActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 主页 会话列表 -->
+        <!-- <activity android:name=".MainActivity" -->
+        <!-- android:screenOrientation="portrait"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.Activity.MainActivity"/> -->
+        <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.extop.education"
+                    android:pathPrefix="/conversationlist"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+        <!-- 圈子详情 -->
+        <activity
+            android:name=".Activity.CircleDetailsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.CircleDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 公司必读 -->
+        <activity
+            android:name=".Activity.VideoDetailsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.VideoDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 修改密码 -->
+        <activity
+            android:name=".Activity.ChangePasswordActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ChangePasswordActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 绑定手机号 -->
+        <activity
+            android:name=".Activity.MessageAuthenticationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.MessageAuthenticationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 设置密码 -->
+        <activity
+            android:name=".Activity.SetPasswordActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.SetPasswordActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 我的提问 -->
+        <activity
+            android:name=".Activity.MyQuestionsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.MyQuestionsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 我的提问搜索结果 -->
+        <activity
+            android:name=".Activity.MyQuestionSearchResults"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.MyQuestionSsearchResults" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 我要回答 -->
+        <activity
+            android:name=".Activity.AnswerActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.AnswerActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 最新问题与历史回答搜索页面 -->
+        <activity
+            android:name=".Activity.SearchQuestionsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.SearchQuestionsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 申请圈子管理员 -->
+        <activity
+            android:name=".Activity.CircleAdministratorActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.CircleAdministratorActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 提出问题 -->
+        <activity
+            android:name=".Activity.AskQuestions"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.AskQuestions" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 视频详情 -->
+        <activity
+            android:name=".Activity.CoursewareDetailsActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.Activity.CoursewareDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 图片详情 -->
+        <activity
+            android:name=".Activity.ImageDetailsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ImageDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 问题详情 -->
+        <activity
+            android:name=".Activity.QuestionDetailsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.QuestionDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 文案详情 -->
+        <activity
+            android:name=".Activity.PDFActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.PDFActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 回复详情 -->
+        <activity
+            android:name=".Activity.ReplyForDetailsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ReplyForDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 音频详情 -->
+        <activity
+            android:name=".Activity.AudioDetailsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.AudioDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 修改用户信息 -->
+        <activity
+            android:name=".Activity.UpdateUserInfoActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.UpdateUserInfoActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 找回密码 -->
+        <activity
+            android:name=".Activity.RetrievePasswordActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.RetrievePasswordActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 重置密码 -->
+        <activity
+            android:name=".Activity.ResetPasswordActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ResetPasswordActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 圈内搜索文案视频等 -->
+        <activity
+            android:name=".Activity.CircleInsideSearch"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.CircleInsideSearch" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 贡献列表 -->
+        <activity
+            android:name=".Activity.ContributionActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ContributionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 发布贡献 -->
+        <activity
+            android:name=".Activity.PutContributionActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.PutContributionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 贡献详情 -->
+        <activity
+            android:name=".Activity.ContributionDetailsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ContributionDetailsActivtity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 搜索贡献 -->
+        <activity
+            android:name=".Activity.SearchContributionActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.SearchContributionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 我要考试 -->
+        <activity
+            android:name=".Activity.ExaminationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ExaminationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 我的网络业绩 -->
+        <activity
+            android:name=".Activity.MyNetworkPerformanceActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.MyNetworkPerformanceActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 填写邀请码 -->
+        <activity
+            android:name=".Activity.Fill_in_the_invitation_codeActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.Fill_in_the_invitation_codeActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 我的综合评价 -->
+        <activity
+            android:name=".Activity.MyComprehensiveEvaluationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.MyComprehensiveEvaluationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 圈子通知 -->
+        <activity
+            android:name=".Activity.CircleNotificationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.CircleNotificationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 圈子通知详情 -->
+        <activity
+            android:name=".Activity.InformTheDetailsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.InformTheDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 搜索圈子通知 -->
+        <activity
+            android:name=".Activity.SearchCircleNotificationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.SearchCircleNotificationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 圈子动态 -->
+        <activity
+            android:name=".Activity.CircleDynamicActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.CircleDynamicActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 搜索圈子动态 -->
+        <activity
+            android:name=".Activity.SearchCircleDynamicActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.SearchCircleDynamicActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 我的收藏 -->
+        <activity
+            android:name=".Activity.MyCollectionActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.MyCollectionActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 我的任务 -->
+        <activity
+            android:name=".Activity.MyTaskActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.MyTaskActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 已完成任务详情 -->
+        <activity
+            android:name=".Activity.CompleteTaskDetailsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.CompleteTaskDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 选择任务 -->
+        <activity
+            android:name=".Activity.OptionToTaskActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.OptionToTaskActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 缴费任务 -->
+        <activity
+            android:name=".Activity.CaptureExpendsTaskActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.CaptureExpendsTaskActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 问卷任务 -->
+        <activity
+            android:name=".Activity.QuestionnaireTaskActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.QuestionnaireTaskActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 统计任务 -->
+        <activity
+            android:name=".Activity.StatisticsTaskActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.StatisticsTaskActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 考试任务 -->
+        <activity
+            android:name=".Activity.ExaminationTaskActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ExaminationTaskActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 审核任务 -->
+        <activity
+            android:name=".Activity.AuditTaskActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.AuditTaskActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 差异通知任务 -->
+        <activity
+            android:name=".Activity.DifferentialNotificationTaskActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.DifferentialNotificationTaskActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 汇签任务 -->
+        <activity
+            android:name=".Activity.CountersignTaskActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.CountersignTaskActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 签署意见 -->
+        <activity
+            android:name=".Activity.CommentsContractsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.CommentsContractsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 文件状态 -->
+        <activity
+            android:name=".Activity.FileStatusActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.FileStatusActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 汇签任务传递页面 -->
+        <activity
+            android:name=".Activity.TransmitActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.TransmitActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 流程追踪 -->
+        <activity
+            android:name=".Activity.TracingFlowActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.TracingFlowActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 缴费记录 -->
+        <activity
+            android:name=".Activity.PaymentRecordsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.PaymentRecordsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 圈内缴费记录 -->
+        <activity
+            android:name=".Activity.InternalPaymentRecordsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.InternalPaymentRecordsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 我的应用 -->
+        <activity
+            android:name=".Activity.MyController"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.MyController" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 通讯录 -->
+        <activity
+            android:name=".Activity.AddressBookActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.AddressBookActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 搜索通讯录 -->
+        <activity
+            android:name=".Activity.SearchAddressBookActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.SearchAddressBookActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 员工信息 -->
+        <activity
+            android:name=".Activity.EmployeeInformationActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.EmployeeInformationActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 互动聊天 -->
+        <!-- <activity android:name=".Activity.InteractiveChatActivity" -->
+        <!-- android:screenOrientation="portrait"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.Activity.InteractiveChatActivity"/> -->
+        <!-- <category android:name="android.intent.category.DEFAULT"/> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <!-- 互动聊天 会话界面 -->
+        <activity
+            android:name=".Activity.InteractiveChatActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="com.extop.education"
+                    android:pathPrefix="/conversation/"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+        <!-- 微信、支付宝支付 圈子缴费 -->
+        <activity
+            android:name=".Activity.WeChat_Alipay_pay"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.WeChat_Alipay_pay" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 积分排名 -->
+        <activity
+            android:name=".Activity.LeaderBoardActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.LeaderBoardActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 搜索圈子 -->
+        <activity
+            android:name=".Activity.SearchCircleActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.SearchCircleActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 商品列表 -->
+        <activity
+            android:name=".Activity.ProductListActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ProductListActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 商品详情 -->
+        <activity
+            android:name=".Activity.ProductDetailsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ProductDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 商品订单 -->
+        <activity
+            android:name=".Activity.ProductOrderActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ProductOrderActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 商品订单详情 -->
+        <activity
+            android:name=".Activity.ProductOrderDetailsActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ProductOrderDetailsActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 电子商务 -->
+        <activity
+            android:name=".Activity.ElectronicCommerceActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ElectronicCommerceActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 手机端上传视频图片 -->
+        <activity
+            android:name=".Activity.UploadDataActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.UploadDataActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!-- 公司必须图片展示 -->
+        <activity
+            android:name=".Activity.ImageShowActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.Activity.ImageShowActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <!-- 支付宝需要引用的两个Activity -->
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"></activity>
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind"></activity>
+
+        <!-- 融云接收推送需要的服务 -->
+        <receiver
+            android:name=".Receiver.RongCloudReceiver"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="io.rong.push.intent.MESSAGE_ARRIVED" />
+                <action android:name="io.rong.push.intent.MI_MESSAGE_ARRIVED" />
+                <action android:name="io.rong.push.intent.MESSAGE_CLICKED" />
+                <action android:name="io.rong.push.intent.MI_MESSAGE_CLICKED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- 微信回调需要的Activity -->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTop" />
+
+    </application>
+
+</manifest>

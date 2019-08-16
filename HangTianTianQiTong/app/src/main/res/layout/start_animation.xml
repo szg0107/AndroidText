@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/SplashColor"
+    android:id="@+id/version_linear">
+        <!--<WebView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:id="@+id/version"-->
+            <!--android:visibility="invisible"></WebView>-->
+        <org.xwalk.core.XWalkView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/version"
+            android:visibility="invisible"/>
+        <!--android:background="@drawable/animations"
+        android:background="@color/SplashColor"-->
+</LinearLayout>
